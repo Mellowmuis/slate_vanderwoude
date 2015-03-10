@@ -94,7 +94,7 @@ module.exports = function (grunt) {
           'autoprefixer:compressed',
           //'csslint:compressed',
           // Beautify, lint, concat and minify js
-          'jsbeautifier:js',
+        //  'jsbeautifier:js',
         //  'jshint:strict',
           'concat:all',
           'uglify:all',
@@ -102,12 +102,12 @@ module.exports = function (grunt) {
           'copy:php_child',
           'delete_sync:php_templates',
           'delete_sync:php_includes',
-          'processhtml:compressed',
+       //   'processhtml:compressed',
           // Copy Wp child css
-          'copy:css_child',
+          'copy:css_child'
           // Process images
           //'imagemin:all',
-          'delete_sync:img'
+         // 'delete_sync:img'
           // Process svg icons
          // 'svgstore:all'
         );

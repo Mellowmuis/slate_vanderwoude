@@ -1,0 +1,12 @@
+/*
+Theme Name: slate-0.3.1_vanderwoude
+Theme URI: https://github.com/Mellowmuis/slate_vanderwoude
+Description: a clean slate - vanderwoude child theme
+Version: 0.3.1
+Author: Melle Versluis
+Author URI: http://www.lokaalgevonden.nl
+Tags: slate
+Template: slate-0.3.1
+*/
+
+@import url('../slate-0.3.1/style.css');

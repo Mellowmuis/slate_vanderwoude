@@ -1,0 +1,161 @@
+.Content {
+
+}
+.item {
+	border-style:solid;
+	border-color:black;
+	border-width:2px; 
+	padding:5px;
+	padding-bottom:0px;
+}
+
+.inner-line{
+	border-style:solid;
+	border-color:grey;
+	border-width:1px; 
+}
+.center {
+	text-align:center;
+	margin-top: 20px !important;
+	margin-bottom: 20px;
+	h5{
+		margin:0px;
+	}
+
+}
+
+.u-gridContainer h2, h5{
+	margin:0px;
+}
+
+// blogpost ------------------------------------------------
+.blogpost{
+	margin-right:0px;
+	padding:20px;
+	height:400px;
+
+	h3{
+		margin-top:10px;
+		margin-bottom:20px;
+	}
+}
+.index-wraper{
+	margin-bottom:40px;
+	.ngg-galleryoverview{
+		display: none !important;
+	}
+}
+@media all and (max-width: 900px) {
+	.blogpost{
+	height:350px;
+}
+}
+@media all and (max-width: 800px) {
+	.blogpost{
+	height:330px;
+}
+}
+@media all and (max-width: 736px) {
+	.blogpost{
+	height:250px;
+
+	h3{
+	font-size:20px;
+	}
+}
+}
+@media all and (max-width: 641px) {
+	.blogpost{
+	height:300px;
+}
+}
+@media all and (max-width: 640px) {
+	.blogpost{
+	height:450px;
+}
+}
+@media all and (max-width: 550px) {
+	.blogpost{
+	height:400px;
+}
+}
+@media all and (max-width: 450px) {
+	.blogpost{
+	height:350px;
+}
+}
+@media all and (max-width: 375px) {
+	.blogpost{
+	height:250px;
+}
+}
+//----------------------------------------------------------
+// singlepost ------------------------------------------
+.singlepost-wraper{
+	img{
+	width:229px;
+	height:180px;
+	
+	}
+	h2{
+		text-align: center;
+		margin-top: 20px;
+	}	
+}
+#post-960{
+	img{
+	width:229px;
+	height:360px;
+	border:2px solid black !important;
+	}
+}
+#post-963{
+	img{
+	width:229px;
+	height:280px;
+	border:2px solid black !important;
+	}
+}
+#post-29{
+	img{
+	width:229px;
+	height:300px;
+	border:2px solid black !important;
+	}
+}
+#post-957{
+	img{
+	width:229px;
+	height:300px;
+	border:2px solid black !important;
+	}
+}
+//contact--------------------------
+.adress-map{
+	border:1px solid black;
+	margin-bottom:20px;
+}
+.adress-info{
+	h4{
+		margin-top: 0px;
+	}
+}
+.ngg-gallery-thumbnail img{
+	background-color: #FFFBD8 !important;
+	border: 1px solid black;
+}
+#input_1_1{
+	width:100%;
+}
+#input_1_2{
+	width:100%;
+}
+#input_1_3{
+	width:100%;
+}
+#input_1_4{
+	width:100%;
+}
+#input_1_5{
+	width:100%;
+}
