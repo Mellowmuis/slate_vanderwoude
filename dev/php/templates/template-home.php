@@ -24,10 +24,10 @@ Template Name: Homepage
 		<div class="u-gridContainer"><div class="menu-line"></div></div>
 
 	<div class="u-gridContainer">
-		<div class="u-gridCol2">
+		<div class="u-gridCol1">
 			<p>
 		</div>
-		<div class="u-gridCol8">
+		<div class="u-gridCol10 text-home">
 			<h1 align="center">SINDS 1962</h1>
 			<p>Meer dan 50 jaar gespecialiseerd in zowel verlichting als metaalwaren in de ruimste zin.
 				De producten uit eigen fabriek vinden aftrek in binnen- en buitenland.
@@ -36,7 +36,7 @@ Template Name: Homepage
 			</p>
 		</div>
 
-		<div class="u-gridCol2"><p></div>
+		<div class="u-gridCol1"><p></div>
 
 	</div>
 

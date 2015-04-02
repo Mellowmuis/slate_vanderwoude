@@ -45,20 +45,20 @@
        <div class="u-gridContainer head">
             <div class="u-gridCol3 top-icon">
                 <div class="header-line2"></div>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/verlichting.png">
+             <!--   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/verlichting.png">-->
             </div>
             <div class="u-gridCol6 Header-logo">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
             </div>
             <div class="u-gridCol3 top-icon">
                 <div class="header-line2"></div>
-                <div class="float-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/metaal.png"></div>
+            <!--    <div class="float-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/metaal.png"></div>-->
             </div>
        </div> 
     </div>
 
   <div class="Bot-Nav">
-	<div class="u-gridContainer">
+	<div class="u-gridContainer bot-line">
 		<div class="Nav-toggle u-cf">
 			<a class="Navigation-menuToggle" id="js-navCollapse">
 				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
@@ -67,9 +67,9 @@
 			</a>
 		</div>
     
-        <div class="menu-line"></div>
+        
 		<?php include 'includes/navigation.php'; ?>
-        <div class="header-line3"></div>
+        
 
 		<div class="Mob-contact-ico">
 			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:075-6212580">

@@ -23,11 +23,21 @@
 	}
 
 }
-
+.product-thumb{
+	height:50px;
+	img{
+		width:100%;
+		height:50px;
+	}
+}
 .u-gridContainer h2, h5{
 	margin:0px;
 }
-
+.text-home{
+	p{
+		font-size: 1.3rem;
+	}
+}
 // blogpost ------------------------------------------------
 .blogpost{
 	margin-right:0px;
