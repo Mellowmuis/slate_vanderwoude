@@ -31,4 +31,24 @@ if(is_admin() && !$initialized){
 
 include_once('includes/antispam.php');
 
+
+
+//
+
+
+function checktax(){
+	$initialized = get_option('slate_products_initialized');
+	if($initialized == null){
+		$initialized = false;
+	}
+	if(!$initialized){
+		include_once('includes/initialize_products.php');
+		$p = new ProductInitializer();
+		//	$p->parsePagesFromXml('/var/www/wp-content/themes/slate-0.3.1_vanderwoude/includes/products_brasserie.xml');
+		//$p->initializeAll();
+		
+		add_option('slate_products_initialized', true);
+	}
+}
+add_action( 'init', 'checktax' );
 ?>

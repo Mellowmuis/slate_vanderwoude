@@ -39,6 +39,15 @@
   padding-right: $l-insideGutter;
 }
 
+.u-gridCol20percent {
+	float: left;
+	width: 18%;
+	margin-right: 2.5%;
+	&:last-of-type {
+		margin-right: 0px;
+	}
+}
+
 .u-gridRow {
   @include row();
 }

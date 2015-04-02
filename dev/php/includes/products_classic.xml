@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lamps>
+	
+
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-030-0080_a_sch__602.jpg</url>
+		<title><![CDATA[30.030.0080<br />Diameter 50 cm.         
+Hoogte 50 cm.  
+Uitvoering: messing, chroom of brons. ]]></title>
+		<id>30.030.0080</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-020-0050_a_nonsch__602.jpg</url>
+		<title><![CDATA[30.020.0050<br />Diameter 65 cm.         
+Hoogte 95 cm.  
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>30.020.0050</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0415_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0415<br />Diepte 30 cm.
+Hoogte 45 cm.
+Breedte 11 cm.        
+Uitvoering: messing, chroom of brons. ]]></title>
+		<id>30.160.0415</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-150-0050_a_sch__602.jpg</url>
+		<title><![CDATA[30.150.0050<br />Breedte 15 cm.  
+Hoogte 30-70 cm.
+Diepte 20-70 cm   
+Uitvoering: messing, chroom  of brons.]]></title>
+		<id>30.150.0050</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-150-0020_a_sch__602.jpg</url>
+		<title><![CDATA[30.150.0020<br />Breedte 21 cm.  
+Hoogte 40 cm.
+Diepte 80 cm   
+Uitvoering: messing, chroom  of brons.   ]]></title>
+		<id>30.150.0020</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-150-0030_a_sch__602.jpg</url>
+		<title><![CDATA[30.150.0030<br />Breedte 20 cm.  
+Hoogte 40 cm.
+Diepte 63 cm   
+Uitvoering: messing, chroom  of brons.]]></title>
+		<id>30.150.0030</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-150-0040_a_sch__602.jpg</url>
+		<title><![CDATA[30.150.0040<br />Breedte 14 cm.  
+Hoogte 16 cm.
+Diepte 54 cm   
+Uitvoering: messing, chroom  of brons.   ]]></title>
+		<id>30.150.0040</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-010-0160_a_sch__602.jpg</url>
+		<title><![CDATA[30.010.0160<br />Diameter 85 cm.         
+Hoogte 90 cm. ]]></title>
+		<id>30.010.0160</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-010-0170_a_sch__602.jpg</url>
+		<title><![CDATA[30.010.0170<br />Diameter 85 cm.         
+Hoogte 90 cm. ]]></title>
+		<id>30.010.0170</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-010-0180_a_sch__602.jpg</url>
+		<title><![CDATA[30.010.0180<br />Diameter 85 cm.         
+Hoogte 90 cm.  
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>30.010.0180</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-030-0130_a_sch__602.jpg</url>
+		<title><![CDATA[30.030.0130<br />Diameter 25 cm.         
+Hoogte 120 cm.  
+Uitvoering: messing, chroom of brons. ]]></title>
+		<id>30.030.0130</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-030-0060_a_sch__602.jpg</url>
+		<title><![CDATA[30.030.0060<br />Diameter 50 cm.         
+Hoogte 120 cm.  
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>30.030.0060</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-030-0070_a_nonsch__602.jpg</url>
+		<title><![CDATA[30.030.0070<br />Diameter 50 cm.         
+Hoogte 120 cm.  
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>30.030.0070</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-020-0010_a_sch__602.jpg</url>
+		<title><![CDATA[30.020.0010<br />Diameter 60 cm.         
+Hoogte 95 cm.  
+Uitvoering: messing, chroom of brons.  ]]></title>
+		<id>30.020.0010</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-020-0020_a_sch__602.jpg</url>
+		<title><![CDATA[30.020.0020<br />Breedte 70 cm.  
+Hoogte 95 cm.         
+Diameter kap 25 cm.]]></title>
+		<id>30.020.0020</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0080_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0080<br />Breedte 24 cm.  
+Hoogte 60 cm.
+Diepte 35 cm.]]></title>
+		<id>30.160.0080</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-000-0200_a_sch__602.jpg</url>
+		<title><![CDATA[30.000.0200<br />Diameter 25 cm.         
+Hoogte 45 cm. ]]></title>
+		<id>30.000.0200</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-560-0010_a_sch__602.jpg</url>
+		<title><![CDATA[30.560.0010<br />Hoogte : 45 cm.
+Diameter : 21 cm.]]></title>
+		<id>30.560.0010</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-560-0030_a_sch__602.jpg</url>
+		<title><![CDATA[30.560.0030<br />Hoogte : 59 cm.
+Diameter : 30 cm.]]></title>
+		<id>30.560.0030</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-560-0040_a_sch__602.jpg</url>
+		<title><![CDATA[30.560.0040<br />Hoogte : 74 cm.
+Diameter : 40,5 cm.]]></title>
+		<id>30.560.0040</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0090_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0090<br />Diepte 35 cm.
+Hoogte 31 cm.         
+Diameter 25 cm.]]></title>
+		<id>30.160.0090</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-360-0020_a_nonsch__602.jpg</url>
+		<title><![CDATA[30.360.0020<br />Hoogte : 180 cm.
+Diameter : 30 cm.]]></title>
+		<id>30.360.0020</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-460-0040_a_sch__602.jpg</url>
+		<title><![CDATA[30.460.0040<br />Hoogte 80 cm.
+Breedte 40 cm.
+Uitvoering: messing, chroom of brons. ]]></title>
+		<id>30.460.0040</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0440_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0440<br />Breedte 30 cm.  
+Hoogte 24 cm.
+Diepte 40 cm.   
+Uitvoering: messing, chroom  of brons.]]></title>
+		<id>30.160.0440</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0420_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0420<br />Diepte max. 50 cm.
+Hoogte 25 cm.
+Breedte 23 cm.
+Uitvoering: messing, chroom of brons.
+]]></title>
+		<id>30.160.0420</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0101_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0101<br />Diepte 25 cm.
+Hoogte 30 cm.
+Breedte 55 cm.]]></title>
+		<id>30.160.0101</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-0140-0050_a_sch__602.jpg</url>
+		<title><![CDATA[30.140.0050<br />Diepte 25 cm.
+Hoogte 50 cm.
+Breedte 28 cm.]]></title>
+		<id>30.140.0050</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-140-0060_a_sch__602.jpg</url>
+		<title><![CDATA[30.140.0060<br />Diepte 25 cm.
+Hoogte 50 cm.
+Breedte 33 cm.        
+Diameter 25 cm.]]></title>
+		<id>30.140.0060</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-140-0080_a_nonsch__602.jpg</url>
+		<title><![CDATA[30.140.0080<br />Breedte 64 cm.  
+Hoogte 225 cm.
+Diepte 64 cm.   
+Uitvoering: messing, chroom  of brons. ]]></title>
+		<id>30.140.0080</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-140-0040_a_sch__602.jpg</url>
+		<title><![CDATA[30.140.0040<br />Breedte 12 cm.  
+Hoogte 70 cm.
+Diepte 26 cm.   
+Uitvoering: messing, chroom  of brons.]]></title>
+		<id>30.140.0040</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-140-0021_a_sch__602.jpg</url>
+		<title><![CDATA[30.140.0021<br />Breedte 20 cm.  
+Hoogte 45 cm.
+Diepte 15 cm.   
+Uitvoering: messing, chroom  of brons.]]></title>
+		<id>30.140.0021</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-140-0030_a_nonsch__602.jpg</url>
+		<title><![CDATA[30.140.0030<br />Breedte 16 cm.  
+Hoogte 125 cm.
+Diepte 28 cm.   
+Uitvoering: messing, chroom  of brons.]]></title>
+		<id>30.140.0030</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-140-0070_a_nonsch__602.jpg</url>
+		<title><![CDATA[30.140.0070<br />Breedte 19 cm.  
+Hoogte 172 cm.
+Diepte 25 cm.   
+Uitvoering: messing, chroom  of brons.  ]]></title>
+		<id>30.140.0070</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-150-0010_a_sch__602.jpg</url>
+		<title><![CDATA[30.150.0010<br />Breedte 100 cm.
+Diepte 30 cm.
+Uitvoering: messing, chroom  of brons.]]></title>
+		<id>30.150.0010</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-010-0261_a_sch__602.jpg</url>
+		<title><![CDATA[30.010.0261<br />Diameter 90 cm.         
+Hoogte 100 cm.  
+Uitvoering: messing, chroom of brons. ]]></title>
+		<id>30.010.0261</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-010-0271_a_sch__602.jpg</url>
+		<title><![CDATA[30.010.0271<br />Diameter 60 cm.         
+Hoogte 80 cm.  
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>30.010.0271</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0311_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0311<br />Breedte 11 cm.  
+Hoogte 65 cm.
+Diepte 25 cm.   
+Uitvoering: messing, chroom  of brons.  ]]></title>
+		<id>30.160.0311</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0074_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0074<br />Breedte 11 cm.  
+Hoogte 22 cm.
+Diepte 35 cm.   
+Uitvoering: messing, chroom  of brons.]]></title>
+		<id>30.160.0074</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0394_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0394<br />Breedte 20 cm.  
+Hoogte 40 cm.
+Diepte 43 cm.   
+Uitvoering: messing, chroom  of brons.]]></title>
+		<id>30.160.0394</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-030-0286_a_sch__602.jpg</url>
+		<title><![CDATA[30.030.0286<br />Diameter 14 cm.         
+Hoogte 90 cm.  ]]></title>
+		<id>30.030.0286</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-030-276_a_sch__602.jpg</url>
+		<title><![CDATA[30.030.0276<br />Diameter 14 cm.         
+Hoogte 90 cm.  ]]></title>
+		<id>30.030.0276</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-030-0296_a_sch__602.jpg</url>
+		<title><![CDATA[30.030.0296<br />Diameter 9 cm.         
+Hoogte 90 cm. ]]></title>
+		<id>30.030.0296</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-030-0266_a_sch__602.jpg</url>
+		<title><![CDATA[30.030.0266<br />Diameter 9 cm.         
+Hoogte 90 cm.  
+Uitvoering: messing, chroom of brons.  
+ ]]></title>
+		<id>30.030.0266</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-160-0124_a_sch__602.jpg</url>
+		<title><![CDATA[30.160.0124<br />Breedte 27 cm.  
+Hoogte 30 cm.
+Diepte 14 cm.]]></title>
+		<id>30.160.0124</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-200-0090_a_sch__602.jpg</url>
+		<title><![CDATA[30.200.0090<br />Diameter 32,5 cm.     
+Kraagmaat 25 cm.    
+Hoogte 18 cm.  
+Uitvoering: messing, chroom of brons.  ]]></title>
+		<id>30.200.0090</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-200-0080_a_sch__602.jpg</url>
+		<title><![CDATA[30.200.0080<br />Diameter 38,5 cm.     
+Kraagmaat 30cm.    
+Hoogte 22cm.  
+Uitvoering: messing, chroom of brons.  ]]></title>
+		<id>30.200.0080</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-200-0030_a_sch__602.jpg</url>
+		<title><![CDATA[30.200.0030<br />Diameter 25 cm.         
+Kraagmaat 15 cm.
+Hoogte 15 cm.  
+Uitvoering: messing, chroom of brons.  ]]></title>
+		<id>30.200.0030</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-200-0040_a_sch__602.jpg</url>
+		<title><![CDATA[30.200.0040<br />Diameter 25 cm.         
+Hoogte 23 cm.  
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>30.200.0040</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-020-0030_a_nonsch__602.jpg</url>
+		<title><![CDATA[30.020.0030<br />Breedte 170 cm.  
+Hoogte 130 cm.
+Diepte 60 cm   
+Uitvoering: messing, chroom  of brons]]></title>
+		<id>30.020.0030</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-010-0290_a_nonsch__602.jpg</url>
+		<title><![CDATA[30.010.0290<br />Diameter 110cm.         
+Hoogte 150cm.  
+Uitvoering: messing, chroom of brons.   ]]></title>
+		<id>30.010.0290</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-010-0190_a_nonsch__602.jpg</url>
+		<title><![CDATA[30.010.0190<br />Diameter 175 cm.         
+Hoogte 145 cm.  
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>30.010.0190</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-010-0226_a_sch__602.jpg</url>
+		<title><![CDATA[30.010.0226<br />Diameter 115 cm.         
+Hoogte 120 cm.  
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>30.010.0226</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-010-0241_a_sch__602.jpg</url>
+		<title><![CDATA[30.010.0241<br />Diameter 100 cm.         
+Hoogte 100 cm.
+Uitvoering: messing, chroom of antiek.   ]]></title>
+		<id>30.010.0241</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/30-200-0011_a_sch__602.jpg</url>
+		<title><![CDATA[30.200.0011<br />Diameter 100 cm.         
+Hoogte 35 cm.  
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>30.200.0011</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/27-010-0240_a_nonsch__602.jpg</url>
+		<title><![CDATA[27.010.0240<br />Hoogte 130
+Lengte 100 tot 210 cm.
+Uitvoering: messing, chroom of brons.]]></title>
+		<id>27.010.0240</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+	<lamp>
+		<url>http://www.vanderwoude.nl/site/img/klanten/45/galerie/27-010-0260_a_nonsch__602.jpg</url>
+		<title><![CDATA[27.010.0260<br />Hoogte 70 cm.
+Lengte 265 cm.
+Uitvoering: messing, chroom of brons. ]]></title>
+		<id>27.010.0260</id>
+		<category>Hanglampen</category>
+		<serie>Classic</serie>
+	</lamp>
+</lamps>

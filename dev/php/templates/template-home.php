@@ -39,33 +39,113 @@ Template Name: Homepage
 		<div class="u-gridCol2"><p></div>
 
 	</div>
+		<?php 
 
+		$taxonomies = array( 
+			'lamptypes'
+		);
+
+		$args = array(
+			'orderby'           => 'name', 
+			'order'             => 'ASC',
+			'hide_empty'		=> 0,
+			'exclude'           => array(), 
+			'exclude_tree'      => array(), 
+			'include'           => array(),
+			'fields'            => 'all', 
+			'slug'              => '',
+			'parent'            => '',
+			'hierarchical'      => true, 
+			'child_of'          => 0, 
+			'get'               => '', 
+			'name__like'        => '',
+			'description__like' => '',
+			'pad_counts'        => false, 
+			'offset'            => '', 
+			'search'            => '', 
+			'cache_domain'      => 'core'
+		); 
+
+		$terms = get_terms($taxonomies, $args);
+		include_once('global.php');
+		global $imgMap;
+		?>
 
 		<div class="u-gridContainer products">
 			<div class="content-line"></div>
 			<h3 class="center">PRODUCTEN</h3>
 			<div class="content-line"></div>
-			<div class="u-gridCol3 center">
-				
-				<div class="item"><a href="/hanglampen"><img class="inner-line" src="<?php echo get_stylesheet_directory_uri(); ?>/img/hang.png"></a></div>
-				<a href="/hanglampen"><h5>HANGLAMPEN</h5></a>
-			 </div>
-			<div class="u-gridCol3 center">
-				
-				<div class="item"><a href="/wandlampen"><img class="inner-line" src="<?php echo get_stylesheet_directory_uri(); ?>/img/wand.png"></a></div>
-				<a href="/wandlampen"><h5>WANDLAMPEN</h5></a>
-			 </div>
-			 <div class="u-gridCol3 center">
-				
-				<div class="item"><a href="/staande-lampen"><img class="inner-line" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sta.png"></a></div>
-				<a href="/staande-lampen"><h5>STAANDE LAMPEN</h5></a>
-			 </div>
-			 <div class="u-gridCol3 center">
-				
-				<div class="item"><a href="/plafonnieres"><img class="inner-line" src="<?php echo get_stylesheet_directory_uri(); ?>/img/plafond.png"></a></div>
-				<a href="/plafonnieres"><h5>PLAFONNIÈRES</h5></a>
-			 </div>
+			<?php foreach($terms as $term){
+			?>
+				<div class="u-gridCol3 center">
+					<div class="item">
+						<a href="/<?php echo $term->taxonomy; ?>/<?php echo $term->slug; ?>"><img class="inner-line" src="<?php echo get_stylesheet_directory_uri().$imgMap[$term->slug]; ?>" /></a>
+					</div>
+					<a href="/<?php echo $term->taxonomy; ?>/<?php echo $term->slug; ?>">
+						<h5><?php echo strtoupper($term->name); ?></h5>
+					</a>
+				</div>
+			<?php
+			}
+			?>
 		</div>
+
+	<?php 
+
+		$taxonomies = array( 
+			'series'
+		);
+
+		$args = array(
+			'orderby'           => 'name', 
+			'order'             => 'ASC',
+			'hide_empty'		=> 0,
+			'exclude'           => array(), 
+			'exclude_tree'      => array(), 
+			'include'           => array(),
+			'fields'            => 'all', 
+			'slug'              => '',
+			'parent'            => '',
+			'hierarchical'      => true, 
+			'child_of'          => 0, 
+			'get'               => '', 
+			'name__like'        => '',
+			'description__like' => '',
+			'pad_counts'        => false, 
+			'offset'            => '', 
+			'search'            => '', 
+			'cache_domain'      => 'core'
+		); 
+
+		$terms = get_terms($taxonomies, $args);
+		include_once('global.php');
+		global $imgMap;
+		?>
+
+		<div class="u-gridContainer products">
+			<div class="content-line"></div>
+			<h3 class="center">SERIES</h3>
+			<div class="content-line"></div>
+			<div class="u-gridRow" style="text-align: center">
+			<?php foreach($terms as $term){
+			?>
+				<div class="u-gridCol20percent center">
+					<div class="item">
+						<a href="/<?php echo $term->taxonomy; ?>/<?php echo $term->slug; ?>"><img class="inner-line" src="<?php echo get_stylesheet_directory_uri().$imgMap[$term->slug]; ?>" /></a>
+					</div>
+					<a href="/<?php echo $term->taxonomy; ?>/<?php echo $term->slug; ?>">
+						<h5><?php echo $term->name; ?></h5>
+					</a>
+				</div>
+			<?php
+			}
+			?>
+			</div>
+		</div>
+
+
+
+
 		<div class="u-gridContainer"><div class="menu-line"></div></div>
 	<div class="u-gridContainer"></div>
 </div>
