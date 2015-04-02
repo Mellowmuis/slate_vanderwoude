@@ -26,7 +26,7 @@
     fill: #000;
     display: block;
     margin: auto;
-    margin-top: 15px;
+    //margin-top: 15px;
     height: 35px;
     width: 35px;
 
@@ -57,10 +57,7 @@
 	.Navigation-listItem{
 		margin: 0px 1.8rem;
 	}
-	.header-line2{
-		display: none;
-	}
-
+	
 }
 @media all and (max-width: 767px) {
 	.Navigation-list{
@@ -78,6 +75,9 @@
 	}
 	.header-line3{
 		display: none;
+	}
+	.bot-line{
+		padding-top:0px;
 	}
 	.Nav-tel {
 		display: none;
@@ -203,7 +203,7 @@
 			left: 10px;				
 			.Icon--inline {
 				margin: -4px;
-				margin-top: 5px;
+				margin-top: -8px;
 			}
 		}
 
@@ -219,7 +219,7 @@
 			left: 100px;				
 			.Icon--inline {
 				margin: -4px;
-				margin-top: 5px;
+				margin-top:-8px;
 			}
 		}
 	}

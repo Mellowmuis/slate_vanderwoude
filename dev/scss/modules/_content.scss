@@ -73,7 +73,7 @@
 	.blogpost{
 	height:250px;
 
-	h3{
+	h3{ 
 	font-size:20px;
 	}
 }
@@ -87,6 +87,10 @@
 	.blogpost{
 	height:450px;
 }
+.header-line2{
+		display: none;
+	}
+
 }
 @media all and (max-width: 550px) {
 	.blogpost{

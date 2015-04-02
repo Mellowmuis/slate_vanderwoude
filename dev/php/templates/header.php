@@ -51,7 +51,7 @@
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
             </div>
             <div class="u-gridCol3 top-icon">
-                <div class="header-line2"></div>
+                <div class="header-line2"></div> 
             <!--    <div class="float-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/metaal.png"></div>-->
             </div>
        </div> 

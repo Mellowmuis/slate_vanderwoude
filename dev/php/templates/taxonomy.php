@@ -9,7 +9,7 @@
 				<?php } ?> 
 					<div class="u-gridCol3 center">
 						<div class="item">
-							<a href="<?php the_permalink(); ?>">
+							<a target="_blank" href="<?php the_permalink(); ?>">
 								<img class="inner-line" src="<?php echo $image[0]; ?>" />
 							</a>
 						</div>
