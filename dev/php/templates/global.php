@@ -9,6 +9,10 @@
 			'modern'=>'/img/modern.jpg',
 			'classic'=>'/img/classic.jpg',
 			'brasserie'=>'/img/brasserie.jpg',
+			'decoraties'=>'/img/decoraties.jpg',
+			'buffetlampen'=>'/img/buffetlampen.jpg',
+			'tafellampen'=>'/img/tafellampen.jpg',
+			'vloerlampen'=>'/img/vloerlampen.jpg',
 
 		);
 ?>

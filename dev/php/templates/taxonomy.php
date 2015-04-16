@@ -37,6 +37,7 @@
 				$counter= 1;
 				foreach($orderedPosts as $p){ 
 					$image = wp_get_attachment_image_src( get_post_thumbnail_id( $p->ID ), 'medium' );
+					$imageLarge = wp_get_attachment_image_src( get_post_thumbnail_id( $p->ID ), 'large' );
 					$perm = get_permalink($p->ID);
 
 				?>
@@ -45,7 +46,7 @@
 				<?php } ?> 
 					<div class="u-gridCol3 center">
 						<div class="item">
-							<a href="<?php echo $perm; ?>">
+							<a href="<?php echo $imageLarge[0]; ?>" class="lamp"> 
 								<img class="inner-line" src="<?php echo $image[0]; ?>" />
 							</a>
 						</div>

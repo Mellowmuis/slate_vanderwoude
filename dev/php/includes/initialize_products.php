@@ -6,10 +6,11 @@ class ProductInitializer {
 	}	
 
 	public function initializeAll(){
-//		$this->createPages();
+		$this->createPages();
 		
-		$p = $this->get_page_by_name('30_000_0180');
-		echo 'p: '.$p;
+		//$p = $this->get_page_by_name('30_360_0019');
+	//	echo 'p: '.$p;
+//			exit;
 	}
 	public function parsePagesFromXml($file){
 		$xml = simplexml_load_file($file);
@@ -96,7 +97,7 @@ class ProductInitializer {
 	 */
 	public function createPage($title, $slug, $content, $image, $series){
 		$p = $this->get_page_by_name($slug);
-		if(false && !$p) { //doesnt exist yet
+		if(!$p) { //doesnt exist yet
 			//echo 'false ....';
 			$page = array(
 				  'comment_status' => 'closed',

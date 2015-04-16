@@ -45,7 +45,7 @@ function checktax(){
 		include_once('includes/initialize_products.php');
 		$p = new ProductInitializer();
 		//	$p->parsePagesFromXml('/var/www/wp-content/themes/slate-0.3.1_vanderwoude/includes/products_brasserie.xml');
-		$p->initializeAll();
+	//	$p->initializeAll();
 		
 		add_option('slate_products_initialized', true);
 	}
