@@ -16,7 +16,7 @@
 							<a href="<?php the_permalink(); ?>"><img src="<?php echo $image1['url']; ?>" alt="<?php echo $image1['alt']; ?>"/></a>
 						<?php endif; ?>
 						<h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-						<?php the_content('Read the rest of this entry &raquo;'); ?>
+					
 					</div>
 				</article>
 			

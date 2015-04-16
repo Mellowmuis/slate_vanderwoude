@@ -53,6 +53,12 @@
 		margin-bottom:20px;
 	}
 }
+.ngg-gallery-thumbnail-box{
+	width:32.7%;
+	img{
+		width:100%;
+	}
+}
 .index-wraper{
 	margin-bottom:40px;
 	.ngg-galleryoverview{
@@ -62,6 +68,9 @@
 @media all and (max-width: 900px) {
 	.blogpost{
 	height:350px;
+}
+.ngg-gallery-thumbnail-box{
+	width:49%;
 }
 }
 @media all and (max-width: 800px) {
