@@ -5,7 +5,12 @@
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<div class="menu-line"></div>
 			<div class="u-gridRow">
-				<div class="u-gridCol4">
+				<div class="u-gridCol6">
+					<div class="item">
+						<img style="width:100%;" src="<?php echo $image[0]; ?>" class="inner-line product-image"/>
+					</div>
+				</div>
+				<div class="u-gridCol6">
 						<?php the_content(); ?>
 
 						<div class="category tags">
@@ -18,12 +23,6 @@
 							<?php edit_post_link('Edit', '', ' | '); ?>
 						</div>
 				</div>
-				<div class="u-gridCol8">
-					<div class="item">
-						<img style="width:100%;" src="<?php echo $image[0]; ?>" class="inner-line product-image"/>
-					</div>
-				</div>
-				
 			</div>
 		</article>
 	<?php endwhile; else: ?>

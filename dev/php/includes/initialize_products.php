@@ -6,7 +6,10 @@ class ProductInitializer {
 	}	
 
 	public function initializeAll(){
-		$this->createPages();
+//		$this->createPages();
+		
+		$p = $this->get_page_by_name('30_000_0180');
+		echo 'p: '.$p;
 	}
 	public function parsePagesFromXml($file){
 		$xml = simplexml_load_file($file);
@@ -28,7 +31,7 @@ class ProductInitializer {
 
 
 	public function createPages(){
-		$pages = $this->parsePagesFromXml('/var/www/wp-content/themes/slate-0.3.1_vanderwoude/includes/products.xml');
+		$pages = $this->parsePagesFromXml('/var/www/wp-content/themes/slate-0.3.1_vanderwoude/includes/all_products.xml');
 		foreach($pages as $page){
 			$title = $page['title'];
 			$slug = $page['slug'];

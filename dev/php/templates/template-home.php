@@ -32,7 +32,7 @@ Template Name: Homepage
 			<p>Meer dan 50 jaar gespecialiseerd in zowel verlichting als metaalwaren in de ruimste zin.
 				De producten uit eigen fabriek vinden aftrek in binnen- en buitenland.
 				Naast het bestaande assortiment wordt er veel maatwerk geleverd.
-				Denk hierbij vooral aan het op maat maken van lampen, deurgrepen, (bier)tapzuilen, 
+				Denk hierbij vooral aan het op maat maken van lampen, deurgrepen, (bier)tapzuilen, enzovoorts.
 			</p>
 		</div>
 
