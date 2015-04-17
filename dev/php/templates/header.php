@@ -48,7 +48,9 @@
              <!--   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/verlichting.png">-->
             </div>
             <div class="u-gridCol6 Header-logo">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
+				<a href="/">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
+				</a>
             </div>
             <div class="u-gridCol3 top-icon">
                 <div class="header-line2"></div> 

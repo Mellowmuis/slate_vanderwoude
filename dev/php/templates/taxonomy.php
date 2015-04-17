@@ -7,33 +7,45 @@
 				if (have_posts()) { 
 					while (have_posts()) { 
 						the_post(); 
-					
-
-					//get orientation of image
-
-					$orderedPosts[] =  $post;
+						$orderedPosts[] =  $post;
 					}
 				}
-
 
 				function compareImage($a, $b){
-					$image = wp_get_attachment_image_src( get_post_thumbnail_id( $a->ID ), 'medium' );
-					$image2 = wp_get_attachment_image_src( get_post_thumbnail_id( $b->ID ), 'medium' );
-					$aHorizontal = $image[1] > $image[2];
-					$bHorizontal = $image2[1] > $image2[2];
+					//Make regex on diameter voor beide
 
-					if($aHorizontal && $bHorizontal){
-						return 0;
-					} elseif($aHorizontal && !$bHorizontal) {
-						return 1;
-					} elseif($bHorizontal && !$aHorizontal){
+					//doe dan de sort
+					$re = '/Diameter[\s]*([0-9]+)/';
+
+					 
+					$strA = $a->post_title;
+					$strB = $b->post_title;
+					$matchesA = array();
+					$matchesB = array();
+					preg_match($re, $strA, $matchesA);
+					preg_match($re, $strB, $matchesB);
+
+					if(count($matchesA) < 2){
+						//echo 'no match A ['.$strA.'](B was: '.$strB.')<br/>';
+						//print_r($matchesA);
 						return -1;
-					} else { 
-						return 0;
 					}
+					if(count($matchesB) < 2){
+						//echo 'no match B '.$strB.'(A was: '.$strA.')<br/>';
+						//print_r($matchesB);
+						
+						return 1;
+					}
+					$score =  $matchesA[1] > $matchesB[1] ? 1 : -1;
+					//echo $score . ' = ' . $matchesA[1].' | '. $matchesB[1].'<br/>';
+					return $score;
 				}
-				usort($orderedPosts, "compareImage");
 
+				//echo '<pre>';
+				//print phpversion();
+				
+				$b = usort($orderedPosts, "compareImage");
+				//print_r($orderedPosts);
 				$counter= 1;
 				foreach($orderedPosts as $p){ 
 					$image = wp_get_attachment_image_src( get_post_thumbnail_id( $p->ID ), 'medium' );
@@ -44,8 +56,9 @@
 				<?php if($counter % 4 == 1) { ?>
 				<div class="u-gridRow row-<?php echo $counter; ?>">
 				<?php } ?> 
-					<div class="u-gridCol3 center">
+					<div class="u-gridCol3 center ">
 						<div class="item">
+							<?php //echo $p->post_title; ?>
 							<a href="<?php echo $imageLarge[0]; ?>" class="lamp"> 
 								<img class="inner-line" src="<?php echo $image[0]; ?>" />
 							</a>

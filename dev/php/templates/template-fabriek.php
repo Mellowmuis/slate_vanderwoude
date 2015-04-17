@@ -11,7 +11,7 @@ Template Name: Fabriek
 			<h3 class="center"><?php the_title(); ?></h3>
 			<div class="content-line"></div>
 			<div class="u-gridCol4">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fabriek.png">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fabriek.jpg">
 			 </div>
 			<div class="u-gridCol8">
 					<article class="Content Content--twosidebar" id="post-<?php the_ID(); ?>">

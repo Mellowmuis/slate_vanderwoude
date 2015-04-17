@@ -13,7 +13,7 @@ Template Name: Product
 		);
 
 		$args = array(
-			'orderby'           => 'name', 
+			'orderby'           => 'id', 
 			'order'             => 'ASC',
 			'hide_empty'		=> 0,
 			'exclude'           => array(), 
@@ -36,6 +36,7 @@ Template Name: Product
 		$terms = get_terms($taxonomies, $args);
 		include_once('global.php');
 		global $imgMap;
+		$i = 1;
 		?>
 
 		<div class="u-gridContainer products">
@@ -44,6 +45,7 @@ Template Name: Product
 			<div class="content-line"></div>
 			<?php foreach($terms as $term){
 			?>
+				<?php if($i%4==1){ echo '<div class="u-gridRow">'; } ?>
 				<div class="u-gridCol3 center">
 					<div class="item">
 						<a href="/<?php echo $term->taxonomy; ?>/<?php echo $term->slug; ?>"><img class="inner-line" src="<?php echo get_stylesheet_directory_uri().$imgMap[$term->slug]; ?>" /></a>
@@ -52,7 +54,9 @@ Template Name: Product
 						<h5><?php echo strtoupper($term->name); ?></h5>
 					</a>
 				</div>
-			<?php
+				<?php if($i%4==0 || $i == count($terms)){ echo '</div>'; } ?>
+			<?php $i++;
+
 			}
 			?>
 		</div>

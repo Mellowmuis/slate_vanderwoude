@@ -12,13 +12,13 @@ Template Name: Homepage
 		</div>
 		<div class="u-gridContainer">
 			<div class="u-gridCol4">
-				<a href="/projecten"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/project.png"></a>
+				<a href="/projecten"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/project.jpg"></a>
 			 </div>
 			<div class="u-gridCol4">
-				<a href="/projecten"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/project2.png"></a>
+				<a href="/projecten"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/project2.jpg"></a>
 			 </div>
 			 <div class="u-gridCol4">
-				<a href="/projecten"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/project3.png"></a>
+				<a href="/projecten"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/project3.jpg"></a>
 			 </div>
 		</div>
 		<div class="u-gridContainer"><div class="menu-line"></div></div>
