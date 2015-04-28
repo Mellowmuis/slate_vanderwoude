@@ -15,35 +15,57 @@
 					//Make regex on diameter voor beide
 
 					//doe dan de sort
-					$re = '/Diameter[\s]*([0-9]+)/';
+					$re = "/Diameter([0-9]+)/ius";
 
-					 
-					$strA = $a->post_title;
-					$strB = $b->post_title;
+					$strA = str_replace(':','', str_replace('\r','', str_replace(' ', '', substr($a->post_title, 0, 400))));
+					$strB = str_replace(':','', str_replace('\r','', str_replace(' ', '', substr($b->post_title, 0, 400))));
+
 					$matchesA = array();
 					$matchesB = array();
-					preg_match($re, $strA, $matchesA);
-					preg_match($re, $strB, $matchesB);
+					if(preg_match($re, $strA, $matchesA) === 0){
+						$matchesA = array();
 
-					if(count($matchesA) < 2){
-						//echo 'no match A ['.$strA.'](B was: '.$strB.')<br/>';
-						//print_r($matchesA);
-						return -1;
+						//match on length now
+						$re2 = "/Lengte([0-9]+)/ius";
+						if(preg_match($re2, $strA, $matchesA) === 0) {
+							$re3 = "/Breedte([0-9]+)/ius";
+							$matchesA = array();
+							if(preg_match($re3, $strA, $matchesA) === 0) {
+							
+								$re4 = "/Hoogte([0-9]+)/ius";
+								$matchesA = array();
+								if(preg_match($re4, $strA, $matchesA) === 0) {
+									echo 'none match a'.$strA;
+									return -1;
+								}
+	
+							}
+						}
 					}
-					if(count($matchesB) < 2){
-						//echo 'no match B '.$strB.'(A was: '.$strA.')<br/>';
-						//print_r($matchesB);
-						
-						return 1;
+					if(preg_match($re, $strB, $matchesB) === 0){
+						$matchesB = array();
+
+						$re2 = "/Lengte([0-9]+)/ius";
+						if(preg_match($re2, $strB, $matchesB) === 0) {
+							$re3 = "/Breedte([0-9]+)/ius";
+							$matchesB = array();
+							if(preg_match($re3, $strB, $matchesB) === 0) {
+								$re4 = "/Hoogte([0-9]+)/ius";
+								$matchesB = array();
+								if(preg_match($re4, $strB, $matchesB) === 0) {
+									echo 'none match b'.$strB;
+									return -1;
+								}
+							}
+						}
 					}
-					$score =  $matchesA[1] > $matchesB[1] ? 1 : -1;
-					//echo $score . ' = ' . $matchesA[1].' | '. $matchesB[1].'<br/>';
+					$score =  intval($matchesA[1]) >= intval($matchesB[1]);
+
 					return $score;
 				}
 
 				//echo '<pre>';
 				//print phpversion();
-				
 				$b = usort($orderedPosts, "compareImage");
 				//print_r($orderedPosts);
 				$counter= 1;
@@ -58,7 +80,7 @@
 				<?php } ?> 
 					<div class="u-gridCol3 center ">
 						<div class="item">
-							<?php //echo $p->post_title; ?>
+							<?php // echo $p->post_title; ?>
 							<a href="<?php echo $imageLarge[0]; ?>" class="lamp"> 
 								<img class="inner-line" src="<?php echo $image[0]; ?>" />
 							</a>
