@@ -26,7 +26,7 @@
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/google-maps.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/google-maps.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.colorbox.min.js"></script>
-  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lightbox_lampen.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lightbox.min.js"></script>
   <script src="http://localhost:35729/livereload.js"></script>
   
  

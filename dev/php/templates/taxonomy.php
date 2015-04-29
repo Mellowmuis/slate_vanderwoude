@@ -80,10 +80,9 @@
 				<?php } ?> 
 					<div class="u-gridCol3 center ">
 						<div class="item">
-							<?php // echo $p->post_title; ?>
-							<a href="<?php echo $imageLarge[0]; ?>" class="lamp"> 
-								<img class="inner-line" src="<?php echo $image[0]; ?>" />
-							</a>
+							<a data-lightbox="lamp-image" data-title="<?php echo $p->post_title; ?>"  href="<?php echo $imageLarge[0]; ?>" >  
+								<img class="inner-line" src="<?php echo $image[0]; ?>"  />
+							</a> 
 						</div>
 						<div class="category tags">
 							<?php the_terms($p->ID, 'lamptypes', 'Categorie: ', ', ', ''); ?>
