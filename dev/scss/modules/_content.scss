@@ -1,6 +1,34 @@
 .Content {
 
 }
+#cboxContent{
+	//height:640px !important;
+	//width:907px !important;
+	height:auto !important;
+	width:auto !important;
+	background-color:white;
+	border:2px solid black;
+	padding-bottom:5px;
+	#cboxClose{
+		position: absolute !important;
+		top:5px !important;
+		right:5px !important;
+	}
+	#cboxNext{
+		float:right;
+		margin-top: -23px;
+  		margin-right: 6px;
+	}
+	#cboxPrevious{ 
+		float:left;
+		margin-top: -23px;
+ 		margin-left: 6px;
+	}
+	#cboxCurrent{
+		text-align: center; 
+		float:none !important;
+	}
+}
 .item {
 	border-style:solid;
 	border-color:black;
