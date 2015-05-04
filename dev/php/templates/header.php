@@ -36,7 +36,10 @@
 
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lightbox_projecten.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lightbox.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
   </head>
   <body <?php body_class(); ?> >

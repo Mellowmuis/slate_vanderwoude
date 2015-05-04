@@ -9,12 +9,6 @@
 	</footer>
 
 
-	
-
-  <!-- Load jquery from google CDN if possible, with fallback to cdnjs -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"><\/script>')</script>
-
   <!-- build:remove:expanded -->
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/production.min.js"></script>
   <!-- /build -->
@@ -26,9 +20,7 @@
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/google-maps.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/google-maps.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.colorbox.min.js"></script>
-  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lightbox.min.js"></script>
   <script src="http://localhost:35729/livereload.js"></script>
-  
  
   <!-- /build -->
 
