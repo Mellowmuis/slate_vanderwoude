@@ -48,8 +48,8 @@ jQuery(document).ready(function($) {
 // will hide all dropdowns
 // -------------------------------------
 
-$(document).click(function() {
-
-  $(".Navigation-list--dropdown").addClass('is-hidden');
-
+jQuery(document).ready(function($) {
+	jQuery(document).click(function(){
+	  $(".Navigation-list--dropdown").addClass('is-hidden');
+	});
 });

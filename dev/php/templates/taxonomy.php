@@ -74,13 +74,15 @@
 					$imageLarge = wp_get_attachment_image_src( get_post_thumbnail_id( $p->ID ), 'large' );
 					$perm = get_permalink($p->ID);
 
+
 				?>
+				
 				<?php if($counter % 4 == 1) { ?>
 				<div class="u-gridRow row-<?php echo $counter; ?>">
 				<?php } ?> 
 					<div class="u-gridCol3 center ">
 						<div class="item">
-							<a data-lightbox="lamp-image" data-title="<?php echo $p->post_title; ?>"  href="<?php echo $imageLarge[0]; ?>" >  
+							<a rel="lightbox-lampen" title="<?php echo $p->post_title; ?>"  href="<?php echo $imageLarge[0]; ?>" >  
 								<img class="inner-line" src="<?php echo $image[0]; ?>"  />
 							</a> 
 						</div>

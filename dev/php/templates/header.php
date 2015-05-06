@@ -38,12 +38,13 @@
     <?php wp_head(); ?>
 
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lightbox_projecten.js"></script>
-  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lightbox.min.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/slimbox.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
   </head>
   <body <?php body_class(); ?> >
 
+	<div id="nonclickableoverlay" ></div>
     <div>
        <div class="u-gridContainer head">
             <div class="u-gridCol3 top-icon">
