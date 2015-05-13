@@ -4,4 +4,8 @@ jQuery(document).ready(function($){
 			.parent('a')
 			.attr('rel','lightbox-lampen')
 			.attr('title', title);
+
+
+	$('.post .ngg-galleryoverview img').attr('height', '');
 });
+

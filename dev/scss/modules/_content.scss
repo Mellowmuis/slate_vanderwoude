@@ -72,7 +72,7 @@
 }
 // blogpost ------------------------------------------------
 .blogpost{
-	margin-right:0px;
+	//margin-right:0px;
 	padding:20px;
 	height:400px;
 
@@ -95,54 +95,68 @@
 }
 @media all and (max-width: 900px) {
 	.blogpost{
-	height:350px;
-}
-.ngg-gallery-thumbnail-box{
-	width:49%;
-}
+		height:350px;
+	}
+	.ngg-gallery-thumbnail-box{
+		width: 48%;
+	}
+
 }
 @media all and (max-width: 800px) {
 	.blogpost{
-	height:330px;
-}
+		height:330px;
+	}
+
 }
 @media all and (max-width: 736px) {
 	.blogpost{
-	height:250px;
+		height:250px;
 
-	h3{ 
-	font-size:20px;
+		h3{ 
+			font-size:20px;
+		}
 	}
-}
 }
 @media all and (max-width: 641px) {
 	.blogpost{
-	height:300px;
-}
+		height:300px;
+	}
+	.u-gridCol20percent {
+		width: 100%;
+		float: none;
+		img {
+			border: 0px;
+		}
+
+	}
 }
 @media all and (max-width: 640px) {
 	.blogpost{
-	height:450px;
-}
-.header-line2{
+		height:450px;
+	}
+	.header-line2{
 		display: none;
 	}
 
 }
 @media all and (max-width: 550px) {
 	.blogpost{
-	height:400px;
-}
+		height:400px;
+	}
 }
 @media all and (max-width: 450px) {
 	.blogpost{
-	height:350px;
-}
+		height:350px;
+	}
 }
 @media all and (max-width: 375px) {
 	.blogpost{
-	height:250px;
-}
+		height:250px;
+	}
+	.ngg-gallery-thumbnail-box{
+		width: 98%;
+		float: none;
+	}
 }
 //----------------------------------------------------------
 // singlepost ------------------------------------------

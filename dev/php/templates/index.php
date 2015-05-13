@@ -4,11 +4,15 @@
 			<div class="header-line"></div>
 	<?php if (have_posts()) : ?>
 
-		<?php while (have_posts()) : the_post(); ?>
+		<?php 
+				$counter = 0;
+
+				while (have_posts()) : the_post(); ?>
 				<?php  
 					$image1 = get_field('image1');
-
+					$counter++;
 				?>
+				<?php if($counter%2 == 1){ ?><div class="u-gridRow"><?php } ?>
 				<article class="u-gridCol6 blogpost" <?php post_class() ?> id="post-<?php the_ID(); ?>">
 					<div class="menu-line"></div>
 					<div>
@@ -19,6 +23,7 @@
 					
 					</div>
 				</article>
+				<?php if($counter%2 == 0){ ?></div><!-- end row --><?php } ?>
 			
 		<?php endwhile; ?>
 
