@@ -1,6 +1,9 @@
 .Content {
 
 }
+.show-on-mobile {
+	display: none;
+}
 #cboxContent{
 	//height:640px !important;
 	//width:907px !important;
@@ -147,6 +150,10 @@
 @media all and (max-width: 450px) {
 	.blogpost{
 		height:350px;
+	}
+
+	.show-on-mobile {
+		display: inline-block;
 	}
 }
 @media all and (max-width: 375px) {

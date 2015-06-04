@@ -82,9 +82,10 @@
 				<?php } ?> 
 					<div class="u-gridCol3 center ">
 						<div class="item">
-							<a rel="lightbox-lampen" title="<?php echo $p->post_title; ?>"  href="<?php echo $imageLarge[0]; ?>" >  
+							<a rel="lightbox-lampen" title="<?php echo $p->post_title; ?>. <a href='<?php echo $imageLarge[0]; ?>' target='_blank'>Volledige afbeelding.</a>"  href="<?php echo $imageLarge[0]; ?>" >  
 								<img class="inner-line" src="<?php echo $image[0]; ?>"  />
 							</a> 
+							<p class="show-on-mobile"><?php echo $p->post_title; ?></p>
 						</div>
 						<div class="category tags">
 							<?php the_terms($p->ID, 'lamptypes', 'Categorie: ', ', ', ''); ?>
