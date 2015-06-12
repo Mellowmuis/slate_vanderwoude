@@ -9,8 +9,13 @@ jQuery(document).ready(function($){
 	$('.post .ngg-galleryoverview img').attr('height', '');
 
 	if(window.innerWidth <= 400) {
+		
 //		$('.ngg-galleryoverview img').parent('a').append("<p class='show-on-mobile'>"+title+"</p>");
-		jQuery('a[rel^="lightbox"] img').unwrap()
+		$('.ngg-galleryoverview img').parent('a').each(function() {
+			var url0 = $(this).attr('href');
+			$(this).append("<a href='"+url0+"' target='_blank'>Bekijk volledige afbeelding</a>");
+		});
+		jQuery('a[rel^="lightbox"] img').unwrap();
 
 	}
 });
